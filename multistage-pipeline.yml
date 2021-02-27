@@ -77,7 +77,7 @@ stages:
             - task: AzureRmWebAppDeployment@4
               inputs:
                 ConnectionType: 'AzureRM'
-                azureSubscription: '425betascp'
+                azureSubscription: 'MSFT ATT Subscription (46801f45-d426-43b3-a094-0781444710a8)'
                 appType: 'webApp'
                 WebAppName: '425initwebapp'
                 packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
